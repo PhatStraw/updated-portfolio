@@ -1,0 +1,94 @@
+.intro{
+    max-width: 600px;
+}
+ 
+ .main-p{
+    color: #7D7981;
+    font-size: 20px;
+    max-width: 488px;
+    line-height: 1.5rem;
+ }
+
+h1{
+    font-size: 90px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+label{
+    color: #7D7981;
+}
+
+input{
+    margin: 10px 0px;
+    background-color: #313131;
+    border: #313131;
+    padding: 10px 5px;
+    border-radius: 4px;
+    color: white
+}
+
+textarea{
+    background-color: #313131;
+    border: #313131;
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+
+#contact-form{
+    padding: 32px;
+    margin-top: 42px;
+    border-style: solid;
+    border-width: 2px;
+    border-image: none 100% / 1 / 0 stretch;
+    border-color: #313131;
+    width: 420px;
+    border-radius: 4px;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 640px
+}
+
+.left{
+    padding-left: 130px;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.item{
+    background-color: #313131;
+    width: 700px;
+    margin: 10px 0 10px 0;
+    padding: 25px;
+    border-radius: 4px;
+}
+.projects {
+    margin-top: 36.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    margin:0;
+    padding:5px;
+}
