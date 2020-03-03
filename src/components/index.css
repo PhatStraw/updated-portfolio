@@ -8,10 +8,16 @@
 
 .main-p{
     color: #7D7981;
-    font-size: 14px;
+    font-size: 18px;
     max-width: 250px;
     line-height: 1.2rem;
     padding: 10px;
+}
+
+.projectHeader{
+    border-bottom: 1px solid white;
+    width: 40%;
+
 }
 
 .projects {
@@ -21,8 +27,21 @@
     align-items: center
 }
 
+.projectsH2{
+    padding-top: 1%;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+
 .intro{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +59,11 @@ a{
 }
 
 @media (min-width: 480px){
+    .projectsH2{
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 40px;
+    }
     h1{
         text-align: center;
         margin-top: 10px;
@@ -47,8 +71,8 @@ a{
         font-size: 70px;
     }
     .main-p{
-        font-size: 20px;
-        max-width: 310px;
+        font-size: 25px;
+        max-width: 345px;
         line-height: 1.4rem;
         padding: 10px;
     }
@@ -64,6 +88,11 @@ a{
 }
 
 @media (min-width: 768px){
+    .projectsH2{
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 50px;
+    }
     .main-p{
         font-size: 28px;
         max-width: 650px;
@@ -80,6 +109,11 @@ a{
 }
 
 @media(min-width: 992px){
+    .projectsH2{
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 60px;
+    }
     h1{
         text-align: center;
         margin-top: 10px;
@@ -102,6 +136,16 @@ a{
 }
 
 @media(min-width: 1200px){
+    .projectHeader{
+        border-bottom: 1px solid white;
+        width: 100%;
+    
+    }
+    .projectsH2{
+        margin-bottom: 1px;
+        text-align: start;
+        font-size: 40px;
+    }
     h1{
         text-align: left;
         margin-top: 10px;
@@ -170,7 +214,7 @@ a{
     }
     .item{
         background-color: #313131;
-        width: 500px;
+        width: 100%;
         margin: 10px 0 15px 0;
         padding: 25px;
         border-radius: 4px;
@@ -196,7 +240,7 @@ a{
 @media (min-width: 1500px){
     .item{
         background-color: #313131;
-        width: 700px;
+        width: 820px;
         margin: 10px 0 15px 0;
         padding: 25px;
         border-radius: 4px;
@@ -204,9 +248,15 @@ a{
 }
 
 @media (min-width: 1700px){
+    .projectHeader{
+        border-bottom: 1px solid white;
+        width: 81.5%;
+    
+    }
     .intro{
     max-width: 600px;
-}
+    
+    }
 
 .global-class-name{
     size: 16px;
@@ -222,7 +272,7 @@ a{
  }
 
 h1{
-    font-size: 90px;
+    font-size: 95px;
     width: 100%;
     margin-bottom: 30px;
 }
@@ -245,7 +295,10 @@ label{
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    padding-left: 640px
+    padding-left: 640px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .left{
@@ -260,7 +313,7 @@ label{
 .item{
     background-color: #313131;
     min-width: 800px;
-    width: relative;
+    width: 77%;
     margin: 10px 0 15px 0;
     padding: 25px;
     border-radius: 4px;
@@ -284,22 +337,28 @@ h3{
 }
 
 @media (min-width: 2100px){
+    .projectHeader{
+        border-bottom: 1px solid white;
+        width: 72%;
+    
+    }
     .intro{
         max-width: 800px;
     }
     .item{
-        min-width: 1000px;
+        width: 100%;
+        min-width: 1250px;
         padding-right: 0;
     }
     .main-p{
-        font-size: 40px;
-        max-width: 588px;
-        line-height: 2.5rem;
+        font-size: 45px;
+        max-width: 650px;
+        line-height: 3rem;
      }
     
     h1{
-        font-size: 100px;
-        width: 80%;
+        font-size: 120px;
+        width: 85%;
         margin-bottom: 10px;
     }
     .right{

@@ -19,8 +19,8 @@ const IndexPage = () => {
       <div className="left">
         <div className="intro">
           <h1>Hello, I'm Kevin Sims</h1>
-          <p className="main-p">Id aliquet risus feugiat in ante. Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Tortor at auctor urna nunc id cursus metus aliquam. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Vestibulum morbi blandit cursus risus at ultrices mi. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Augue interdum velit euismod in. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo.</p>
-          <IconContext.Provider value={{ size: "30px", className: "global-class-name" }}>
+          <p className="main-p">Full Stack Web Developer focused on making dope products through new technologies. I like building anything JavaScript related. Outside of tech I love basketball, fashion and video games. I'm interested in opportunities that deal with new and exciting technologies.</p>
+          <IconContext.Provider value={{ size: "32px", className: "global-class-name" }}>
             <a href="https://github.com/kevinsims1" className="ghIcon"><FaGithub /></a>
           </IconContext.Provider>
         </div>
@@ -28,6 +28,11 @@ const IndexPage = () => {
 
 
       <div className="right">
+        <div className="projectHeader">
+          <h2 className="projectsH2">
+            Projects
+          </h2>
+        </div>
         <div className="projects">
           <a className="item" href="https://www.rvnav.com/">
             <h4>
