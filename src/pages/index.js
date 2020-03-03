@@ -2,14 +2,9 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import { FaGithub } from "react-icons/fa"
+import { IconContext } from "react-icons";
 import "../components/index.css"
-
-import Weatherapp from '../img/weatherapp.png';
-import Youtube from '../img/youtube.jpg';
-import DonorTransparency from '../img/DonorT.png';
-import SautiAM from '../img/SautiAM.jpg';
-import Portfolio from '../img/Portfolio.jpg';
 
 const IndexPage = () => {
 
@@ -25,147 +20,62 @@ const IndexPage = () => {
         <div className="intro">
           <h1>Hello, I'm Kevin Sims</h1>
           <p className="main-p">Id aliquet risus feugiat in ante. Ut tristique et egestas quis ipsum suspendisse ultrices gravida. Tortor at auctor urna nunc id cursus metus aliquam. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Vestibulum morbi blandit cursus risus at ultrices mi. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Augue interdum velit euismod in. Mauris vitae ultricies leo integer malesuada nunc vel risus commodo.</p>
+          <IconContext.Provider value={{ size: "30px", className: "global-class-name" }}>
+            <a href="https://github.com/kevinsims1" className="ghIcon"><FaGithub /></a>
+          </IconContext.Provider>
         </div>
       </div>
 
 
       <div className="right">
         <div className="projects">
-          <div className="item">
-            <h3>
+          <a className="item" href="https://www.rvnav.com/">
+            <h4>
+              JavaScript
+            </h4>
+            <h2>
               RV Nav
-            </h3>
+            </h2>
             <p>
-            Id aliquet risus feugiat in ante. Ut tristique et egestas quis ipsum
+              Rv'ers face problems other drivers with smaller vehicles do not, we made a app to help.
             </p>
-          </div>
+          </a>
 
-          <div className="item">
-            <h3>
-              RV Nav
-            </h3>
+          <a className="item" href="https://kevinsims1.github.io/u-tube/">
+            <h4>
+              JavaScript
+            </h4>
+            <h2>
+              Youtube Clone
+            </h2>
             <p>
-            Id aliquet risus feugiat in ante. Ut tristique et egestas quis ipsum
+              Search for your favorite videos on Youtube, using this "Youtube Clone".
             </p>
-          </div>
+          </a>
 
-          <div className="item">
-            <h3>
-              RV Nav
-            </h3>
+          <a className="item" href="https://kevinsims1.github.io/weather-app/">
+            <h4>
+              JavaScript
+            </h4>
+            <h2>
+              Weather App
+            </h2>
             <p>
-            Id aliquet risus feugiat in ante. Ut tristique et egestas quis ipsum
+              Sure we've got weather apps on our phones, but what about our desktops? Check the weather of a city in any country using this desktop weather app.
             </p>
-          </div>
+          </a>
 
-          <div className="item">
-            <h3>
-              RV Nav
-            </h3>
+          <a className="item" href="https://donor-management-fe.netlify.com/signup">
+            <h4>
+              JavaScript
+            </h4>
+            <h2>
+              Donor Manager
+            </h2>
             <p>
-            Id aliquet risus feugiat in ante. Ut tristique et egestas quis ipsum
+              This app if for people who are apart of a non profit, and need a way to keep track of their donors and the amount they donated.
             </p>
-          </div>
-
-          {/* <div className="item">
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href="https://kevinsims1.github.io/u-tube/">
-              <img src={Youtube} alt='' />
-            </a>
-
-            <a className="btn-light" target="_blank"
-              rel="noopener noreferrer"
-              href="https://kevinsims1.github.io/u-tube/">
-              <i className="fas fa-eye"> </i>Youtube Clone
-                </a>
-            <a className="btn-dark" target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/kevinsims1/u-tube">
-              <i className="fab fa-github"></i>Github
-                </a>
-          </div>
-
-          <div className="item">
-            <a href="https://donor-management-fe.netlify.com/signup"
-              target="_blank"
-              rel="noopener noreferrer">
-              <img src={DonorTransparency} alt='' />
-            </a>
-
-            <a className="btn-light" href="https://donor-management-fe.netlify.com/signup" target="_blank"
-              rel="noopener noreferrer">
-              <i className="fas fa-eye"> </i>Donor Management
-                </a>
-            <a className="btn-dark" href="https://github.com/kevinsims1/donormanagement-fe" target="_blank"
-              rel="noopener noreferrer">
-              <i className="fab fa-github"></i>Github
-                </a>
-          </div>
-
-          <div className="item">
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href="https://price-api.sautiafrica.org">
-              <img src={SautiAM} alt='' />
-            </a>
-
-            <a className="btn-light"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://price-api.sautiafrica.org">
-              <i className="fas fa-eye"> </i>Open Source Marketplace Api
-                </a>
-            <a className="btn-dark"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/kevinsims1/OpenSource-marketplace-BE">
-              <i className="fab fa-github"></i>Github
-                </a>
-          </div>
-
-          <div className="item">
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href="https://kevinsims1.github.io/weather-app/">
-              <img src={Weatherapp} alt='' />
-            </a>
-
-            <a className="btn-light"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://kevinsims1.github.io/weather-app/">
-              <i className="fas fa-eye"> </i>Weather App
-                </a>
-
-            <a className="btn-dark"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/kevinsims1/weather-app">
-              <i className="fab fa-github"></i>Github
-                </a>
-          </div>
-
-          <div className="item">
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href="https://kevinsims.dev">
-              <img src={Portfolio} alt='' />
-            </a>
-
-            <a className="btn-light"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://kevinsims.dev">
-              <i className="fas fa-eye"> </i>Portfolio Project
-                </a>
-            <a className="btn-dark"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/kevinsims1/portfolio">
-              <i className="fab fa-github"></i>Github
-                </a>
-          </div> */}
+          </a>
         </div>
       </div>
     </Layout>

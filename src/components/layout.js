@@ -16,9 +16,6 @@ const Layout = ({ children }) => {
       <div className="containerLayout">
         <main>{children}</main>
       </div>
-      <footer>
-        © {new Date().getFullYear()}, Kevin Sims
-      </footer>
     </>
   )
 }
