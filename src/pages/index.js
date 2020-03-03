@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaGithub } from "react-icons/fa"
+import { FaGithubSquare, FaEnvelope } from "react-icons/fa"
 import { IconContext } from "react-icons";
 import "../components/index.css"
 
@@ -21,7 +21,10 @@ const IndexPage = () => {
           <h1>Hello, I'm Kevin Sims</h1>
           <p className="main-p">Full Stack Web Developer focused on making dope products through new technologies. I like building anything JavaScript related. Outside of tech I love basketball, fashion and video games. I'm interested in opportunities that deal with new and exciting technologies.</p>
           <IconContext.Provider value={{ size: "32px", className: "global-class-name" }}>
-            <a href="https://github.com/kevinsims1" className="ghIcon"><FaGithub /></a>
+          <div className="icons">
+             <a href="https://github.com/kevinsims1" className="ghIcon"><FaGithubSquare /></a>
+              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaEnvelope /></a>
+          </div>
           </IconContext.Provider>
         </div>
       </div>

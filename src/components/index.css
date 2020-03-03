@@ -1,3 +1,16 @@
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.ghIcon{
+    margin-left: 10px;
+}
+
+.ghIcon:hover{
+    color: #313131
+}
+
 .item{
     background-color: #313131;
     width: 200px;
