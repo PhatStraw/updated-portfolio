@@ -2,17 +2,11 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaGithubSquare, FaEnvelope } from "react-icons/fa"
+import { FaGithubSquare, FaEnvelope, FaLaptop, FaGithub} from "react-icons/fa"
 import { IconContext } from "react-icons";
 import "../components/index.css"
 
 const IndexPage = () => {
-
-  const handleSubmit = (event) => {
-    alert('A name was submitted: ' + this.state.value);
-    event.preventDefault();
-  }
-
   return (
     <Layout>
       <SEO title="Home" />
@@ -37,7 +31,7 @@ const IndexPage = () => {
           </h2>
         </div>
         <div className="projects">
-          <a className="item" href="https://www.rvnav.com/">
+          <div className="item">
             <h4>
               JavaScript
             </h4>
@@ -47,9 +41,13 @@ const IndexPage = () => {
             <p>
               Rv'ers face problems other drivers with smaller vehicles do not, we made a app to help.
             </p>
-          </a>
+            <div className="icons">
+              <a href="https://www.rvnav.com/" className="ghIcon"><FaLaptop /></a>
+              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+            </div>
+          </div>
 
-          <a className="item" href="https://kevinsims1.github.io/u-tube/">
+          <div className="item">
             <h4>
               JavaScript
             </h4>
@@ -59,9 +57,13 @@ const IndexPage = () => {
             <p>
               Search for your favorite videos on Youtube, using this "Youtube Clone".
             </p>
-          </a>
+            <div className="icons">
+              <a href="https://kevinsims1.github.io/u-tube/" className="ghIcon"><FaLaptop /></a>
+              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+            </div>
+          </div>
 
-          <a className="item" href="https://kevinsims1.github.io/weather-app/">
+          <div className="item">
             <h4>
               JavaScript
             </h4>
@@ -71,9 +73,13 @@ const IndexPage = () => {
             <p>
               Sure we've got weather apps on our phones, but what about our desktops? Check the weather of a city in any country using this desktop weather app.
             </p>
-          </a>
+            <div className="icons">
+              <a href="https://kevinsims1.github.io/weather-app/" className="ghIcon"><FaLaptop /></a>
+              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+            </div>
+          </div>
 
-          <a className="item" href="https://donor-management-fe.netlify.com/signup">
+          <div className="item">
             <h4>
               JavaScript
             </h4>
@@ -83,7 +89,11 @@ const IndexPage = () => {
             <p>
               This app if for people who are apart of a non profit, and need a way to keep track of their donors and the amount they donated.
             </p>
-          </a>
+            <div className="icons">
+              <a href="https://donor-management-fe.netlify.com/signup" className="ghIcon"><FaLaptop /></a>
+              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
