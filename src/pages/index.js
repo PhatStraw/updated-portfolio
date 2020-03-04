@@ -43,7 +43,7 @@ const IndexPage = () => {
             </p>
             <div className="icons">
               <a href="https://www.rvnav.com/" className="ghIcon"><FaLaptop /></a>
-              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+              <a href="https://github.com/kevinsims1/rv-nav-fe" className="ghIcon"><FaGithub /></a>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ const IndexPage = () => {
             </p>
             <div className="icons">
               <a href="https://kevinsims1.github.io/u-tube/" className="ghIcon"><FaLaptop /></a>
-              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+              <a href="https://github.com/kevinsims1/u-tube" className="ghIcon"><FaGithub /></a>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ const IndexPage = () => {
             </p>
             <div className="icons">
               <a href="https://kevinsims1.github.io/weather-app/" className="ghIcon"><FaLaptop /></a>
-              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+              <a href="https://github.com/kevinsims1/weather-app" className="ghIcon"><FaGithub /></a>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ const IndexPage = () => {
             </p>
             <div className="icons">
               <a href="https://donor-management-fe.netlify.com/signup" className="ghIcon"><FaLaptop /></a>
-              <a href="mailto:Kevindsims1@gmail.com" className="ghIcon"><FaGithub /></a>
+              <a href="https://github.com/kevinsims1/OpenSource-marketplace-BE" className="ghIcon"><FaGithub /></a>
             </div>
           </div>
         </div>
