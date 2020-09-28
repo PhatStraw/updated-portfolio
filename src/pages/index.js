@@ -12,7 +12,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <div className="left">
         <div className="intro">
-          <h1>Hello, I'm Kevin Sims</h1>
+          <h1>Kevin Sims</h1>
           <p className="main-p">Full Stack Web Developer focused on making dope products through new technologies. I like building anything JavaScript related. Outside of tech I love basketball, fashion and video games. I'm interested in opportunities that deal with new and exciting technologies.</p>
           <IconContext.Provider value={{ size: "32px", className: "global-class-name" }}>
           <div className="icons">
@@ -36,14 +36,14 @@ const IndexPage = () => {
               JavaScript
             </h4>
             <h2>
-              RV Nav
+              Grails For Sell
             </h2>
             <p>
-              Rv'ers face problems other drivers with smaller vehicles do not, we made a app to help.
+             Fully functional e-commerce site. Includes a cart, add items for admin users, as well as signup/signin.
             </p>
             <div className="icons">
-              <a href="https://www.rvnav.com/" className="ghIcon"><FaLaptop /></a>
-              <a href="https://github.com/kevinsims1/rv-nav-fe" className="ghIcon"><FaGithub /></a>
+              <a href="https://ksks2121.netlify.app/" className="ghIcon"><FaLaptop /></a>
+              <a href="https://github.com/kevinsims1/grailsforsell" className="ghIcon"><FaGithub /></a>
             </div>
           </div>
 

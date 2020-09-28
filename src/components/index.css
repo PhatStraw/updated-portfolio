@@ -21,16 +21,15 @@
 
 .main-p{
     color: #7D7981;
-    font-size: 18px;
-    max-width: 250px;
-    line-height: 1.2rem;
-    padding: 10px;
+    font-size: 22px;
+    line-height: 1.8rem;
+    text-align: center;
+
 }
 
 .projectHeader{
     border-bottom: 1px solid white;
     width: 40%;
-
 }
 
 .projects {
@@ -85,9 +84,7 @@ a{
     }
     .main-p{
         font-size: 25px;
-        max-width: 345px;
-        line-height: 1.4rem;
-        padding: 10px;
+        line-height: 2rem;
     }
 
     .item{
@@ -107,10 +104,8 @@ a{
         font-size: 50px;
     }
     .main-p{
-        font-size: 28px;
-        max-width: 650px;
-        line-height: 1.4rem;
-        padding: 10px;
+        font-size: 26px;
+        line-height: 2rem;
     }
     .item{
         background-color: #313131;
@@ -135,9 +130,7 @@ a{
     }
     .main-p{
         font-size: 30px;
-        max-width: 750px;
-        line-height: 1.6rem;
-        padding: 10px;
+        line-height: 2rem;
     }
     .item{
         background-color: #313131;
