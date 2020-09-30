@@ -1,3 +1,13 @@
+img{
+    display: none;
+}
+
+.item-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .icons{
     display: flex;
     flex-direction: row;
@@ -71,6 +81,12 @@ a{
 }
 
 @media (min-width: 480px){
+    .item-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .projectsH2{
         margin-bottom: 1px;
         text-align: center;
@@ -98,6 +114,12 @@ a{
 }
 
 @media (min-width: 768px){
+    img{
+        display: flex;
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
     .projectsH2{
         margin-bottom: 1px;
         text-align: center;
